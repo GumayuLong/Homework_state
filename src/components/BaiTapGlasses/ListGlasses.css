@@ -1,0 +1,25 @@
+.ListGlasses__container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    border: #000 1px solid;
+    align-items: center;
+    justify-content: center;
+    width: calc( 100% - 256px);
+    margin: auto;
+    height: 35vh;
+}
+
+.GlassesItem__container{
+    width: 100px;
+    margin-left: 20px;
+    cursor:pointer;
+}
+
+.GlassesItem__img{
+    border: #000 solid 1px;
+}
+
+.GlassesItem__img img{
+    width: 100px;
+}

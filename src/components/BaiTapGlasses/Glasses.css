@@ -1,0 +1,15 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.img__wrapper{
+    width: 10%;
+    display:flex;
+}
+
+.img{
+    border: #000 1px solid;
+    height: 100px;
+}

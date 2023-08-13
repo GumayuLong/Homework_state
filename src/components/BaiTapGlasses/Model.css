@@ -1,0 +1,27 @@
+.Model__container{
+    display:flex;
+    justify-content: center;
+}
+
+.Model__wrapper{
+    position: relative;
+}
+
+.Model__human{
+    position: relative;
+}
+
+.Model__human img{
+    width: 60%;
+}
+
+.Model__glass{
+    position: absolute;
+    top: 85px;
+    left: 63px;
+}
+
+.Model__glass img{
+    width: 40%;
+    opacity: .7;
+}
